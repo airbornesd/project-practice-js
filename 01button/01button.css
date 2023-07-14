@@ -1,0 +1,28 @@
+#myButton{
+    background-color: red;
+}
+
+div.container {
+    position: absolute;
+    margin-right: auto;
+    width: 200px;
+    margin-bottom: 50px;
+}
+.boxes {
+    margin: 30px;
+}
+
+div.container-2 {
+    position: relative;
+    margin-left: auto;
+    width: 500px;
+    height: 500px;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.hidden-content.reveal-btn {
+    display: block;
+}
