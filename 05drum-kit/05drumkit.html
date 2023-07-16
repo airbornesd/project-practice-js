@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drum kit</title>
+
+</head>
+
+<body>
+
+    <div class="container" style=" 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        ">
+        <button type="button" data-key="65" class="btn-sound A">A: clap</button>
+        <button type="button" data-key="83" class="btn-sound S">S: hihat</button>
+        <button type="button" data-key="68" class="btn-sound D">D: kick</button>
+        <button type="button" data-key="70" class="btn-sound F">F: openhat</button>
+        <button type="button" data-key="71" class="btn-sound G">G: boom</button>
+        <button type="button" data-key="72" class="btn-sound H">H: ride</button>
+        <button type="button" data-key="74" class="btn-sound J">J: snare</button>
+        <button type="button" data-key="75" class="btn-sound K">K: tom</button>
+        <button type="button" data-key="76" class="btn-sound L">L: tink</button>
+    </div>
+
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/boom.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+    <audio data-key="76" src="sounds/tink.wav"></audio>
+
+    <!-- main script -->
+    <script src="./05drumkit.js"></script>
+</body>
+
+</html>
