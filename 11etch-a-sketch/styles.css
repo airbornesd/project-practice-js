@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px; /* Adjust the width as needed */
+    
+  }
+  
+  .grid-square {
+    box-sizing: border-box;
+    width: 25px; /* Adjust the width and height as needed */
+    height: 25px;
+    border: 1px solid #000;
+  }
